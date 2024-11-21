@@ -16,7 +16,7 @@ int main(){
    sum = toan + van + anh;
    printf("vay tong diem la: %.2f\n", sum);
 // cong thuc tinh diem trung binh
-   average = (toan + van + anh)/3; 
+   average = sum/3; 
    printf("vay diem trung binh la: %.2f", average);
 	return 0;
 }	
